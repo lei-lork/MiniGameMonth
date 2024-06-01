@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bul1vrdql6wuf"
+path="res://.godot/imported/funny song just 4 gay jam.mp3-e61e29ca02a14a9cd1edc7f75b3518ab.mp3str"
+
+[deps]
+
+source_file="res://Assets/funny song just 4 gay jam.mp3"
+dest_files=["res://.godot/imported/funny song just 4 gay jam.mp3-e61e29ca02a14a9cd1edc7f75b3518ab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
