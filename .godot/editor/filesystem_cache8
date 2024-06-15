@@ -1,5 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1718413419
+=======
+::res://::1718413496
+>>>>>>> Stashed changes
 icon.svg::CompressedTexture2D::981263793685682848::1717199881::1717199881::1::::<><>::
 README.md::TextFile::-1::1717199881::0::1::::<><>::
 ::res://addons/::1718412847
@@ -59,7 +63,12 @@ ParameterDisplay.tscn::PackedScene::2744232029172525152::1718412847::0::1::::<><
 TestFmodBankExplorer.tscn::PackedScene::411348537671190282::1718412847::0::1::::<><>::uid://nr38urn226al::::res://addons/fmod/tool/ui/FmodBankExplorer.tscn
 ::res://Assets/::1718412984
 oops.txt::TextFile::-1::1717200181::0::1::::<><>::
+<<<<<<< Updated upstream
 ::res://Assets/Scenes/::1718413344
+=======
+::res://Assets/Scenes/::1718413471
+Control_Panel_Screen.tscn::PackedScene::8597746780823286265::1718413471::0::1::::<><>::
+>>>>>>> Stashed changes
 runner.tscn::PackedScene::1395899185124586465::1718413254::0::1::::<><>::
 ::res://Assets/Sound/::1718412984
 ::res://Assets/Sound/Music/::1718412984
