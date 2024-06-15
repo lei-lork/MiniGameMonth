@@ -1,6 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718410019
-default.tscn::PackedScene::1395899185124586465::1718410010::0::1::::<><>::
+::res://::1718412882
 icon.svg::CompressedTexture2D::981263793685682848::1717202496::1717202496::1::::<><>::
 README.md::TextFile::-1::1717202496::0::1::::<><>::
 ::res://addons/::1717202496
@@ -58,7 +57,12 @@ FmodBankExplorer.tscn::PackedScene::949309473466276335::1717202496::0::1::::<><>
 ParameterDisplay.gd::GDScript::-1::1717202496::0::1::::ParameterDisplay<>MarginContainer<>::
 ParameterDisplay.tscn::PackedScene::2744232029172525152::1717202496::0::1::::<><>::res://addons/fmod/tool/ui/ParameterDisplay.gd
 TestFmodBankExplorer.tscn::PackedScene::411348537671190282::1717202496::0::1::::<><>::uid://nr38urn226al::::res://addons/fmod/tool/ui/FmodBankExplorer.tscn
-::res://Assets/::1717202496
-funny song just 4 gay jam.mp3::AudioStreamMP3::3814522753506613869::1717202496::1717202496::1::::<><>::
-funny song.tres::AudioStreamMP3::4442899209080702131::1717202496::0::1::::<><>::
+::res://Assets/::1718412814
 oops.txt::TextFile::-1::1717202496::0::1::::<><>::
+::res://Assets/Scenes/::1718412882
+default.tscn::PackedScene::1395899185124586465::1718412867::0::1::::<><>::
+::res://Assets/Sound/::1718412793
+::res://Assets/Sound/Music/::1718412793
+funny song just 4 gay jam.mp3::AudioStreamMP3::3814522753506613869::1717202496::1718412793::1::::<><>::
+funny song.tres::AudioStreamMP3::4442899209080702131::1717202496::0::1::::<><>::
+::res://Assets/Sound/SFX/::1718412790
