@@ -6,6 +6,9 @@
 		</relationship>
 	</object>
 	<object class="ProjectSettings" id="{d5c26137-3150-4dce-84bb-1cb960f4e049}">
+		<property name="windowLayout">
+			<value>AAAAAQAAABYAQQB1AGQAaQBvACAAQgBpAG4AIAAxAAAAQgHZ0MsAAwAAAAAAXwAAAMoAAAHwAAADuQAAAGAAAADpAAAB7wAAA7gAAAAAAAAAAAeAAAAAYAAAAOkAAAHvAAADuA==</value>
+		</property>
 		<relationship name="activePlatform">
 			<destination>{8be40c31-e1c9-4058-b6c5-194fd5fd7826}</destination>
 		</relationship>
