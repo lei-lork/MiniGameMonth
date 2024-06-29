@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{19c2e5a1-9699-4802-a03c-e2b0e7c47ef8}">
+		<property name="name">
+			<value>Arp volume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{c482ebe3-12f7-4895-93d2-dea1e6f98e2a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a68a5b1c-2c70-4f6b-83d2-8e589714ded6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a68a5b1c-2c70-4f6b-83d2-8e589714ded6}">
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

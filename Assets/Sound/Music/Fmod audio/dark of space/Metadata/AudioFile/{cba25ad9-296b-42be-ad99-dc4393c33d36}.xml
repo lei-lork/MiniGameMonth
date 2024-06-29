@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{cba25ad9-296b-42be-ad99-dc4393c33d36}">
+		<property name="assetPath">
+			<value>pad bass.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>58.72326530612245</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea94fc23-7a27-4435-9388-21d57a2de689}</destination>
+		</relationship>
+	</object>
+</objects>

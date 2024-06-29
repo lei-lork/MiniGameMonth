@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{03141a64-2227-4c98-9fac-d65b06aedf57}">
+		<property name="assetPath">
+			<value>right melody.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.4187755102040818</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{ea94fc23-7a27-4435-9388-21d57a2de689}</destination>
+		</relationship>
+	</object>
+</objects>
