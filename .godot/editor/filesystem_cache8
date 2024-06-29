@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1719625846
+::res://::1719626106
 icon.svg::CompressedTexture2D::981263793685682848::1718413892::1718413892::1::::<><>::
 README.md::TextFile::-1::1718413892::0::1::::<><>::
 ::res://addons/::1718413892
@@ -32,7 +32,7 @@ CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1710867731::0::1::::<><>::
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.editor.framework/::1718497430
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_debug.framework/::1718497430
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_release.framework/::1718497430
-::res://addons/fmod/libs/windows/::1719625843
+::res://addons/fmod/libs/windows/::1719626103
 CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1710867726::0::1::::<><>::
 ::res://addons/fmod/tool/::1718413892
 ::res://addons/fmod/tool/inspectors/::1718497430
@@ -81,7 +81,7 @@ RED BUTTON-Sheet.png::CompressedTexture2D::346090726669814481::1719624853::17196
 RED GAUGE BACKGROUND.png::CompressedTexture2D::192506626540959789::1719624853::1719625076::1::::<><>::
 RED GAUGE NEEDLE.png::CompressedTexture2D::127522778738546597::1719624853::1719625076::1::::<><>::
 SWITCH.png::CompressedTexture2D::906594920870391197::1719624853::1719625076::1::::<><>::
-::res://Fmodtest/::1719624945
+::res://Fmodtest/::1719625965
 ::res://Fmodtest/Assets/::1719625076
 arp.mp3::AudioStreamMP3::6303986643981501578::1719624923::1719625076::1::::<><>::
 base music.mp3::AudioStreamMP3::1473422476619032923::1719624923::1719625076::1::::<><>::
@@ -93,6 +93,7 @@ Melody.mp3::AudioStreamMP3::5448503152764816984::1719624923::1719625076::1::::<>
 pad bass.mp3::AudioStreamMP3::5884078747935145482::1719624923::1719625076::1::::<><>::
 pad.mp3::AudioStreamMP3::4204029852154280460::1719624920::1719625076::1::::<><>::
 right melody.mp3::AudioStreamMP3::412035618774856136::1719624920::1719625076::1::::<><>::
+::res://Fmodtest/Desktop/::1719625966
 ::res://Fmodtest/Metadata/::1719624920
 ::res://Fmodtest/Metadata/AudioFile/::1719624923
 {3a31cb8d-a02b-4ba4-9c1c-e02bc7a16aeb}.xml::TextFile::-1::1719624920::0::1::::<><>::
