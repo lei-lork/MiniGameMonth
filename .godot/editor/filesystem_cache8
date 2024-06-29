@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718413314
+::res://::1719618208
 icon.svg::CompressedTexture2D::981263793685682848::1718410294::1718410294::1::::<><>::
 README.md::TextFile::-1::1718410294::0::1::::<><>::
 ::res://addons/::1718410483
@@ -32,7 +32,7 @@ CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1710867731::0::1::::<><>::
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.editor.framework/::1710867732
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_debug.framework/::1710867604
 ::res://addons/fmod/libs/macos/libGodotFmod.macos.template_release.framework/::1710867732
-::res://addons/fmod/libs/windows/::1718413302
+::res://addons/fmod/libs/windows/::1719618199
 CopyPast_Fmod_Libs_Here.txt::TextFile::-1::1710867726::0::1::::<><>::
 ::res://addons/fmod/tool/::1710867604
 ::res://addons/fmod/tool/inspectors/::1710867604
@@ -57,13 +57,28 @@ FmodBankExplorer.tscn::PackedScene::949309473466276335::1710867604::0::1::::<><>
 ParameterDisplay.gd::GDScript::-1::1710867604::0::1::::ParameterDisplay<>MarginContainer<>::
 ParameterDisplay.tscn::PackedScene::2744232029172525152::1710867604::0::1::::<><>::res://addons/fmod/tool/ui/ParameterDisplay.gd
 TestFmodBankExplorer.tscn::PackedScene::411348537671190282::1710867604::0::1::::<><>::uid://nr38urn226al::::res://addons/fmod/tool/ui/FmodBankExplorer.tscn
-::res://Assets/::1718413314
-Control_Panel_Screen.tscn::PackedScene::8597746780823286265::1718413250::0::1::::<><>::
+::res://Assets/::1719612671
 oops.txt::TextFile::-1::1718410294::0::1::::<><>::
-::res://Assets/Scenes/::1718413251
-runner.tscn::PackedScene::1395899185124586465::1718413251::0::1::::<><>::
+::res://Assets/Scenes/::1719619733
+Control_Panel_Screen.tscn::PackedScene::8597746780823286265::1719619732::0::1::::<><>::
+Control_Scene.tscn::PackedScene::8459360778772729515::1719619733::0::1::::<><>::uid://bw3ita21cq6bx::::res://Assets/SPRITE ART/RED GAUGE BACKGROUND.png<>uid://bf11iv1e0mb4u::::res://Assets/SPRITE ART/BASE PANELS.png<>uid://bm87h3fmwcrg6::::res://Assets/SPRITE ART/RED BUTTON-Sheet.png<>uid://d0okakplkyfi3::::res://Assets/SPRITE ART/RED GAUGE NEEDLE.png<>uid://qbjb2ebghuhs::::res://Assets/SPRITE ART/GREEN WHEEL.png<>uid://bn8cf65robor7::::res://Assets/SPRITE ART/BLUE INDICATOR-Sheet.png<>uid://chtx3xcvtyqki::::res://Assets/SPRITE ART/HEALTHBAR-Sheet.png<>uid://dff14bdv3oww7::::res://Assets/SPRITE ART/SWITCH.png
+runner.tscn::PackedScene::1395899185124586465::1719619732::0::1::::<><>::
+Wheel.gd::GDScript::-1::1719617868::0::1::::<>Button<>::
 ::res://Assets/Sound/::1718413018
-::res://Assets/Sound/Music/::1718413018
+::res://Assets/Sound/Music/::1719612740
+Black of space.mp3::AudioStreamMP3::3652019749477573966::1719612671::1719612740::1::::<><>::
 funny song just 4 gay jam.mp3::AudioStreamMP3::3814522753506613869::1718413018::1718413018::1::::<><>::
 funny song.tres::AudioStreamMP3::4442899209080702131::1718413018::0::1::::<><>::
-::res://Panel Scene/::1718413314
+::res://Assets/SPRITE ART/::1719620322
+BASE PANELS.png::CompressedTexture2D::2792632795022876130::1719612671::1719612740::1::::<><>::
+BLUE INDICATOR CHEVERON.png::CompressedTexture2D::7687136606768714060::1719612671::1719612740::1::::<><>::
+BLUE INDICATOR-Sheet.png::CompressedTexture2D::3367132155185706018::1719612671::1719612740::1::::<><>::
+GREEN WHEEL.png::CompressedTexture2D::1125635539054804488::1719612671::1719612740::1::::<><>::
+HEALTHBAR-Sheet.png::CompressedTexture2D::5304834155349688876::1719612671::1719612740::1::::<><>::
+LIGHT.png::CompressedTexture2D::8961865433124503247::1719612671::1719612740::1::::<><>::
+PAUSE MENU SPRITES.png::CompressedTexture2D::286196375915478402::1719612671::1719612740::1::::<><>::
+RED BUTTON-Sheet.png::CompressedTexture2D::3298768196511872479::1719612671::1719612740::1::::<><>::
+RED GAUGE BACKGROUND.png::CompressedTexture2D::3988897529764189653::1719612671::1719612740::1::::<><>::
+RED GAUGE NEEDLE.png::CompressedTexture2D::8943492149434284352::1719612671::1719612740::1::::<><>::
+SWITCH Down.png::CompressedTexture2D::7781538098305999006::1719620519::1719620524::1::::<><>::
+SWITCH.png::CompressedTexture2D::7522158646024835188::1719612671::1719612740::1::::<><>::

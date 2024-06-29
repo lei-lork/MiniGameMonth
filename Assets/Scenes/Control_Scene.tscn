@@ -1,0 +1,257 @@
+[gd_scene load_steps=26 format=3 uid="uid://dsr1o3en4uhpb"]
+
+[ext_resource type="Texture2D" uid="uid://bw3ita21cq6bx" path="res://Assets/SPRITE ART/RED GAUGE BACKGROUND.png" id="1_o3pye"]
+[ext_resource type="Texture2D" uid="uid://bf11iv1e0mb4u" path="res://Assets/SPRITE ART/BASE PANELS.png" id="1_qd8br"]
+[ext_resource type="Texture2D" uid="uid://bm87h3fmwcrg6" path="res://Assets/SPRITE ART/RED BUTTON-Sheet.png" id="2_80s04"]
+[ext_resource type="Texture2D" uid="uid://d0okakplkyfi3" path="res://Assets/SPRITE ART/RED GAUGE NEEDLE.png" id="2_xpqh5"]
+[ext_resource type="Script" path="res://Assets/Scenes/RedGaugeNeedle_Tex.gd" id="3_jtefm"]
+[ext_resource type="Texture2D" uid="uid://qbjb2ebghuhs" path="res://Assets/SPRITE ART/GREEN WHEEL.png" id="3_oiq3p"]
+[ext_resource type="Texture2D" uid="uid://bn8cf65robor7" path="res://Assets/SPRITE ART/BLUE INDICATOR-Sheet.png" id="6_wtoh1"]
+[ext_resource type="Script" path="res://Assets/Scenes/Wheel.gd" id="6_yvkr8"]
+[ext_resource type="Texture2D" uid="uid://chtx3xcvtyqki" path="res://Assets/SPRITE ART/HEALTHBAR-Sheet.png" id="7_stljb"]
+[ext_resource type="Texture2D" uid="uid://dff14bdv3oww7" path="res://Assets/SPRITE ART/SWITCH.png" id="8_scwjc"]
+[ext_resource type="Script" path="res://Assets/Scenes/Indicator.gd" id="9_bbstv"]
+[ext_resource type="Texture2D" uid="uid://di4o2bxtcs535" path="res://Assets/SPRITE ART/SWITCH Down.png" id="9_vtave"]
+[ext_resource type="Texture2D" uid="uid://dhryatowfpgx5" path="res://Assets/SPRITE ART/BLUE INDICATOR CHEVERON.png" id="12_ho0cm"]
+
+[sub_resource type="Gradient" id="Gradient_1tabm"]
+offsets = PackedFloat32Array(0.215426, 1)
+colors = PackedColorArray(0.244776, 0.244776, 0.244776, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_51jqx"]
+gradient = SubResource("Gradient_1tabm")
+
+[sub_resource type="Animation" id="Animation_y2g8f"]
+resource_name = "Default_State"
+
+[sub_resource type="Animation" id="Animation_r3g1f"]
+resource_name = "Needle_State_01"
+length = 0.3
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BG/RedGaugeNeedle_Tex:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.387463, 0.322886, 0.387463]
+}
+
+[sub_resource type="Animation" id="Animation_dkwof"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BG/RedGaugeNeedle_Tex:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.387463]
+}
+
+[sub_resource type="Animation" id="Animation_looym"]
+resource_name = "Needle_State_02"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("BG/RedGaugeNeedle_Tex:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.387463, -0.450295]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_8my2t"]
+_data = {
+"Default_State": SubResource("Animation_y2g8f"),
+"Needle_State_01": SubResource("Animation_r3g1f"),
+"Needle_State_02": SubResource("Animation_looym"),
+"RESET": SubResource("Animation_dkwof")
+}
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6d0sj"]
+atlas = ExtResource("2_80s04")
+region = Rect2(0, 0, 64.527, 56)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vakbx"]
+atlas = ExtResource("2_80s04")
+region = Rect2(64.0004, 0, 63.9996, 56)
+
+[sub_resource type="Animation" id="Animation_wutpl"]
+resource_name = "Chevron_State"
+length = 0.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(380, 117), Vector2(380, 102), Vector2(380, 87), Vector2(380, 72), Vector2(380, 57), Vector2(380, 42)]
+}
+
+[sub_resource type="Animation" id="Animation_rh18c"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(380, 117)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2sckt"]
+_data = {
+"Chevron_State": SubResource("Animation_wutpl"),
+"RESET": SubResource("Animation_rh18c")
+}
+
+[node name="UI_Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 0.199951
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BG" type="TextureRect" parent="."]
+layout_mode = 2
+offset_right = 400.0
+offset_bottom = 300.0
+texture = SubResource("GradientTexture1D_51jqx")
+flip_h = true
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="BG"]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 36.0
+offset_right = 204.0
+offset_bottom = 264.0
+
+[node name="SubViewport" type="SubViewport" parent="BG/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(171, 228)
+render_target_update_mode = 4
+
+[node name="GaugeBG_Tex" type="Sprite2D" parent="BG"]
+position = Vector2(271, 214)
+texture = ExtResource("1_o3pye")
+
+[node name="RedGaugeNeedle_Tex" type="Sprite2D" parent="BG"]
+position = Vector2(270, 261)
+rotation = 0.387463
+texture = ExtResource("2_xpqh5")
+centered = false
+offset = Vector2(-15.5, -80)
+script = ExtResource("3_jtefm")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BG/RedGaugeNeedle_Tex"]
+root_node = NodePath("../../..")
+libraries = {
+"": SubResource("AnimationLibrary_8my2t")
+}
+autoplay = "Needle_State_01"
+
+[node name="Panel_Base_Tex" type="Sprite2D" parent="BG"]
+position = Vector2(200, 150)
+texture = ExtResource("1_qd8br")
+
+[node name="Wheel" type="Sprite2D" parent="BG"]
+position = Vector2(358, 230)
+texture = ExtResource("3_oiq3p")
+offset = Vector2(0, 1)
+script = ExtResource("6_yvkr8")
+
+[node name="Wheel_Handle" type="Button" parent="BG/Wheel"]
+offset_left = 22.0
+offset_top = -19.0
+offset_right = 39.0
+offset_bottom = 5.0
+pivot_offset = Vector2(-22, 19)
+focus_mode = 0
+action_mode = 0
+flat = true
+
+[node name="GaugeButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 236.0
+offset_top = 226.0
+offset_right = 300.0
+offset_bottom = 282.0
+texture_normal = SubResource("AtlasTexture_6d0sj")
+texture_pressed = SubResource("AtlasTexture_vakbx")
+
+[node name="Indicator" type="Sprite2D" parent="."]
+position = Vector2(361, 82)
+texture = ExtResource("6_wtoh1")
+hframes = 7
+script = ExtResource("9_bbstv")
+
+[node name="Health State" type="Sprite2D" parent="."]
+position = Vector2(56, 245)
+texture = ExtResource("7_stljb")
+hframes = 7
+
+[node name="Switch1" type="TextureButton" parent="."]
+layout_mode = 0
+offset_left = 254.0
+offset_top = 58.0
+offset_right = 284.0
+offset_bottom = 120.0
+toggle_mode = true
+texture_normal = ExtResource("8_scwjc")
+texture_pressed = ExtResource("9_vtave")
+
+[node name="Switch2" type="TextureButton" parent="."]
+offset_left = 279.0
+offset_top = 58.0
+offset_right = 309.0
+offset_bottom = 120.0
+toggle_mode = true
+texture_normal = ExtResource("8_scwjc")
+texture_pressed = ExtResource("9_vtave")
+
+[node name="Switch3" type="TextureButton" parent="."]
+offset_left = 304.0
+offset_top = 58.0
+offset_right = 334.0
+offset_bottom = 120.0
+toggle_mode = true
+texture_normal = ExtResource("8_scwjc")
+texture_pressed = ExtResource("9_vtave")
+
+[node name="BlueIndicatorCheveron" type="Sprite2D" parent="."]
+position = Vector2(380, 117)
+texture = ExtResource("12_ho0cm")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="BlueIndicatorCheveron"]
+libraries = {
+"": SubResource("AnimationLibrary_2sckt")
+}
+autoplay = "Chevron_State"
+
+[connection signal="button_down" from="BG/Wheel/Wheel_Handle" to="BG/Wheel" method="_on_wheel_handle_button_down"]
+[connection signal="button_up" from="BG/Wheel/Wheel_Handle" to="BG/Wheel" method="_on_wheel_handle_button_up"]
+[connection signal="toggled" from="Switch1" to="Indicator" method="_on_switch_1_toggled"]
+[connection signal="toggled" from="Switch2" to="Indicator" method="_on_switch_2_toggled"]
+[connection signal="toggled" from="Switch3" to="Indicator" method="_on_switch_3_toggled"]

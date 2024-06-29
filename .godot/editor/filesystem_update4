@@ -1,2 +1,6 @@
-res://default.tscn
+res://Assets/Scenes/Control_Scene.tscn
 res://Assets/Scenes/runner.tscn
+res://Assets/Scenes/Control_Panel_Screen.tscn
+res://Assets/Scenes/RedGaugeNeedle_Tex.gd
+res://Assets/Scenes/Wheel.gd
+res://Assets/Scenes/Indicator.gd
