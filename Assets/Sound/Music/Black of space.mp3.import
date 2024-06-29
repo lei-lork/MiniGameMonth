@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dtwlbbkgl20xh"
+path="res://.godot/imported/Black of space.mp3-5794d5f3e2d69f53f3493f8481413175.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Black of space.mp3"
+dest_files=["res://.godot/imported/Black of space.mp3-5794d5f3e2d69f53f3493f8481413175.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

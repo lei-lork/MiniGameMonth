@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://do83g7f4tmuii"
+path="res://.godot/imported/bass tail.mp3-3d333a2047551aa2b25839581c3b9e37.mp3str"
+
+[deps]
+
+source_file="res://Fmodtest/Assets/bass tail.mp3"
+dest_files=["res://.godot/imported/bass tail.mp3-3d333a2047551aa2b25839581c3b9e37.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
