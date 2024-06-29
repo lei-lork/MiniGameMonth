@@ -1,2 +1,3 @@
-res://default.tscn
+res://Assets/Scenes/Control_Scene.tscn
 res://Assets/Scenes/runner.tscn
+res://Assets/Scenes/Control_Panel_Screen.tscn

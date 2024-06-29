@@ -29,12 +29,19 @@ DSP/dsp_buffer_count=4
 [application]
 
 config/name="MiniGameMonth"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="res://Assets/Scenes/Control_Scene.tscn"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
 
 FmodManager="*res://addons/fmod/FmodManager.gd"
+
+[display]
+
+window/size/viewport_width=400
+window/size/viewport_height=300
+window/size/resizable=false
 
 [dotnet]
 

@@ -1,2 +1,14 @@
-MeshInstance3D
-WorldEnvironment
+AnimationPlayer
+Button
+Sprite2D
+TextureButton
+CenterContainer
+AspectRatioContainer
+TextureRect
+SubViewportContainer
+SubViewport
+Window
+VBoxContainer
+HBoxContainer
+BoxContainer
+HSplitContainer
