@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://cye044eram4pw"
+=======
+uid="uid://cnj2h3kgrirpy"
+>>>>>>> Stashed changes
 path="res://.godot/imported/BLUE INDICATOR-Sheet.png-484d96cb497c55990222ae981c1b41ad.ctex"
 metadata={
 "vram_texture": false

@@ -2,7 +2,11 @@
 
 importer="mp3"
 type="AudioStreamMP3"
+<<<<<<< Updated upstream
 uid="uid://dtwlbbkgl20xh"
+=======
+uid="uid://cu6sx7i7rph14"
+>>>>>>> Stashed changes
 path="res://.godot/imported/Black of space.mp3-5794d5f3e2d69f53f3493f8481413175.mp3str"
 
 [deps]

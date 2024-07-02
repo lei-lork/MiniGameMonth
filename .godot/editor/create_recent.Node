@@ -1,2 +1,7 @@
 MeshInstance3D
 WorldEnvironment
+Timer
+CollisionShape3D
+StaticBody3D
+Camera3D
+CharacterBody3D

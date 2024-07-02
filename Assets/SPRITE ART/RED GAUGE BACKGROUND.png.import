@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://c0is50s63bkf"
+=======
+uid="uid://bqj5caxhndwi3"
+>>>>>>> Stashed changes
 path="res://.godot/imported/RED GAUGE BACKGROUND.png-6de9722a94ea464282c56b1012161a0a.ctex"
 metadata={
 "vram_texture": false

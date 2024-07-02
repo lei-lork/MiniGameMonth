@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://daja12yjgicky"
+=======
+uid="uid://dqdm4f0h0ftfn"
+>>>>>>> Stashed changes
 path="res://.godot/imported/PAUSE MENU SPRITES.png-0617bc81964386796a6ae5d096b4397e.ctex"
 metadata={
 "vram_texture": false

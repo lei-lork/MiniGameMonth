@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://jgjrv1ogev5a"
+=======
+uid="uid://y0sw6vdtjadx"
+>>>>>>> Stashed changes
 path="res://.godot/imported/BLUE INDICATOR CHEVERON.png-89cb3ddc7cc16e892c25c71882ad9045.ctex"
 metadata={
 "vram_texture": false

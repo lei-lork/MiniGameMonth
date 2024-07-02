@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://b21jtpox7rdl"
+=======
+uid="uid://dig7asclxxhlt"
+>>>>>>> Stashed changes
 path="res://.godot/imported/RED GAUGE NEEDLE.png-6cd19c6b2125eabce4f05d2785448807.ctex"
 metadata={
 "vram_texture": false

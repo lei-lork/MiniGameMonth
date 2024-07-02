@@ -1,2 +1,6 @@
-res://default.tscn
-res://Assets/Scenes/runner.tscn
+res://Assets/Scenes/Runner.tscn
+res://Assets/Scenes/Control_Panel_Screen.tscn
+res://Assets/Scenes/Runner.gd
+res://Assets/Scenes/wireframe.gdshader
+res://Assets/wireframe.gdshader
+res://Assets/Shaders/wireframe.gdshader

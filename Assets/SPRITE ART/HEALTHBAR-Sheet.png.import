@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://xe6fbuyh6h1p"
+=======
+uid="uid://cbk1tv84q0r1w"
+>>>>>>> Stashed changes
 path="res://.godot/imported/HEALTHBAR-Sheet.png-158a00317b1f9fbcb9e4e293a2f30a07.ctex"
 metadata={
 "vram_texture": false

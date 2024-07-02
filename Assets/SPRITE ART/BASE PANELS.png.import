@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://d37dw5xsa700a"
+=======
+uid="uid://cghegv0hjdl2y"
+>>>>>>> Stashed changes
 path="res://.godot/imported/BASE PANELS.png-48f5ddad7b4b7cf51faea9c5767ba23f.ctex"
 metadata={
 "vram_texture": false

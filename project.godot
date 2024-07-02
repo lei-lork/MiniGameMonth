@@ -29,7 +29,8 @@ DSP/dsp_buffer_count=4
 [application]
 
 config/name="MiniGameMonth"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="res://Assets/Scenes/Runner.tscn"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
